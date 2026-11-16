@@ -34,7 +34,7 @@ JALE requires a project folder that contains 3 files:
 
 The format of these files is very important and you should check the wiki for instructions.
 
-For example files click [here](https://raw.githubusercontent.com/LenFrahm/JALE/master/JALE/assets/examples.zip).
+For example files click [here](https://raw.githubusercontent.com/inm7/JALE/master/jale/assets/ale_examples.zip).
 
 Running an ALE can be done in two ways:
 
