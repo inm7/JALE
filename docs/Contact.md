@@ -1,1 +1,1 @@
-In case you encounter any errors or have questions regarding the algorithm please feel free to contact me under my e-mail l.frahm@mailbox.org
+In case you encounter any errors or have questions regarding the algorithm please open an issue or feel free to get in contact via jale@fz-juelich.de

@@ -3,7 +3,7 @@
 ![Python Versions](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11%20|%203.12-blue)
 ![Ruff](https://img.shields.io/badge/code%20style-Ruff-blueviolet)
 ![PyPI Version](https://img.shields.io/pypi/v/jale.svg)
-![License](https://img.shields.io/github/license/LenFrahm/JALE.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 A Python package for conducting ALE (Activation Likelihood Estimation) meta-analyses, supporting a range of analysis workflows: standard ALE, probabilistic or cross-validated ALE, standard ALE contrast, and balanced ALE contrast.
 

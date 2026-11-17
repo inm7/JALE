@@ -9,7 +9,7 @@ description = "Package allowing users to run Activation Likelihood Estimation Me
 readme = "README.md"
 requires-python = ">=3.11, <3.12"
 license = "MIT"
-authors = [{ name = "Lennart Frahm", email = "l.frahm@mailbox.org" }]
+authors = [{ name = "Lennart Frahm", email = "jale@fz-juelich.de" }]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.11",
