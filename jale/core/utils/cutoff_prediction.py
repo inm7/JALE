@@ -45,9 +45,9 @@ def feature_extraction(nexp, nsub, nfoci):
         logger.warning(
             "Dataset features parameters that would lead to"
             " Out-Of-Distribution prediction: Accuracy can not be guaranteed."
-            " Please disable cutoff prediction!"
+            " Please verify results by comparing to permutation based thresholding "
+            " by disabling cutoff prediction!"
         )
-        sys.exit()
 
     nsub_min = np.min(nsub)
     nsub_skew = skew(nsub)
@@ -65,7 +65,8 @@ def feature_extraction(nexp, nsub, nfoci):
         logger.warning(
             "Dataset features parameters that would lead to"
             " Out-Of-Distribution prediction: Accuracy can not be guaranteed."
-            " Please disable cutoff prediction!"
+            " Please verify results by comparing to permutation based thresholding "
+            " by disabling cutoff prediction!"
         )
 
     nfoci_min = np.min(nfoci)
@@ -166,7 +167,8 @@ def predict_cutoff(exp_df):
         logger.warning(
             "Dataset features parameters that would lead to"
             " Out-Of-Distribution prediction: Accuracy can not be guaranteed."
-            " Please disable cutoff prediction!"
+            " Please verify results by comparing to permutation based thresholding "
+            " by disabling cutoff prediction!"
         )
 
     # Extract features from the experimental dataset
